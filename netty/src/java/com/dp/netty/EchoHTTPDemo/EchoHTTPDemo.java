@@ -116,7 +116,7 @@ public class EchoHTTPDemo {
                                     HTTP_1_1, HttpMethod.POST, "/", content);
                             // If we don't set a content length from the client, HTTP RFC
                             // dictates that the body must be be empty then and Netty won't read it.
-                            request.headers().set("Content-Length", content.readableBytes());
+                            request.headers().set("Content-Length", String.valueOf(content.readableBytes()));
                             future.channel().writeAndFlush(request);
                         }
                     });

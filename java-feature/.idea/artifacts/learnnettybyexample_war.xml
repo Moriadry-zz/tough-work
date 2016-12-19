@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="learnnettybyexample:war">
+    <output-path>$PROJECT_DIR$/../netty/target</output-path>
+    <root id="archive" name="learnnettybyexample.war">
+      <element id="artifact" artifact-name="learnnettybyexample:war exploded" />
+    </root>
+  </artifact>
+</component>

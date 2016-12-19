@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="learnnettybyexample:war exploded">
+    <output-path>$PROJECT_DIR$/../netty/target/learnnettybyexample</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="learnnettybyexample" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
+          <element id="library" level="project" name="Maven: io.netty:netty-all:5.0.0.Alpha2" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.5.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../netty/target/learnnettybyexample/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="learnnettybyexample/web/Web" />
+    </root>
+  </artifact>
+</component>
